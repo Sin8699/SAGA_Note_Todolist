@@ -1,0 +1,238 @@
+.AddTask {
+  display: flex;
+  justify-content: center;
+  max-width: 900px;
+  margin: 50px auto;
+  height: 50px;
+}
+
+.AddTask input {
+  flex: 1;
+  text-indent: 10px;
+  font-size: 19px;
+  color: slategray;
+}
+.AddTask button {
+  width: 60px;
+  font-size: 30px;
+  background: blue;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.TaskTitle,
+.Task {
+  display: flex;
+  max-width: 900px;
+  margin: auto;
+}
+
+.TaskTitle .col1,
+.col2,
+.col3,
+.col4 {
+  border: 1px solid gainsboro;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.TaskTitle .col1 {
+  width: 70px;
+}
+.TaskTitle .col2 {
+  width: 140px;
+}
+.TaskTitle .col3 {
+  flex: 1;
+}
+.TaskTitle .col4 {
+  width: 200px;
+}
+
+.Task .c1,
+.c2,
+.c3,
+.c4 {
+  border: 1px solid gainsboro;
+  font-size: 15px;
+  padding: 25px 10px;
+}
+
+.Task .c1 {
+  display: flex;
+  width: 70px;
+  justify-content: space-around;
+}
+.Task .c2 {
+  width: 140px;
+}
+.Task .c3 {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 70px;
+}
+.Task .c4 {
+  width: 200px;
+}
+.Task i {
+  font-size: 17px;
+  font-weight: bold;
+}
+.Task .fa-pencil {
+  color: dodgerblue;
+}
+.Task .fa-trash {
+  color: red;
+}
+
+.NewTask {
+  width: 900px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 10px;
+  margin: auto;
+  background: #ffffff;
+  -webkit-animation: animatezoom 1s;
+  animation: animatezoom 1s;
+}
+
+.NewTask .header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.NewTask .header .fa-close {
+  color: red;
+}
+.NewTask .header .fa-file {
+  margin-right: 10px;
+}
+
+.NewTask .tilte,
+.content,
+.tags {
+  display: flex;
+  flex-direction: column;
+}
+.NewTask textarea {
+  height: 100px;
+}
+
+.NewTask label {
+  font-size: 17px;
+  margin: 10px 0;
+}
+.NewTask .footer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+.NewTask .footer button {
+  padding: 10px 0;
+  border: 0px;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 200px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.NewTask .footer .cancel {
+  background: red;
+}
+.NewTask .footer .save {
+  background: limegreen;
+}
+.NewTask .footer i {
+  margin-right: 10px;
+}
+
+/*    ANIMATION     */
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+
+
+.ErrorInput{
+    display: flex;
+    justify-content: space-between;
+    background: lightcoral;
+    color: brown;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+
+
+.EditTask {
+  width: 900px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 10px;
+  margin: auto;
+  background: #ffffff;
+  -webkit-animation: animatezoom 1s;
+  animation: animatezoom 1s;
+}
+
+.EditTask .header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.EditTask .header .fa-close {
+  color: red;
+}
+.EditTask .header .fa-file {
+  margin-right: 10px;
+}
+
+.EditTask .tilte,
+.content,
+.tags {
+  display: flex;
+  flex-direction: column;
+}
+.EditTask textarea {
+  height: 100px;
+}
+
+.EditTask label {
+  font-size: 17px;
+  margin: 10px 0;
+}
+.EditTask .footer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+.EditTask .footer button {
+  padding: 10px 0;
+  border: 0px;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 200px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.EditTask .footer .cancel {
+  background: red;
+}
+.EditTask .footer .save {
+  background: limegreen;
+}
+.EditTask .footer i {
+  margin-right: 10px;
+}
